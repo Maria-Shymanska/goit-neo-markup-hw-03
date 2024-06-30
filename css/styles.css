@@ -209,7 +209,10 @@ background-color: var(--ocean);
 }
 
 .features {
-	background-color: var(--white);
+background-color: var(--white);
+display: flex;
+flex-direction: row;
+gap: 24px;
 }
 
 .features-title {
@@ -222,13 +225,11 @@ background-color: var(--ocean);
 }
 
 .features-list {
-	display: flex;
-	flex-direction: row;
-	gap: 24;
+display: flex;
+flex-direction: row;
+gap: 24px;
 }
-.features-list-item {
-	flex: 1 1 calc((100% - 3 * 24px) / 4);
-}
+
 .features-item-title {
 font-weight: 500;
 font-size: 20px;
@@ -336,10 +337,18 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
 }
+
+.portfolio-card-title {
+padding: 32px 16px;
+border-bottom: 1px solid #E7E9FC;
+border-left: 1px solid #E7E9FC;
+border-right: 1px solid #E7E9FC;
+}
 /* footer */
 
 .footer {
-	background: var(--navy-blue);
+background: var(--navy-blue);
+padding: 100px 0;
 }
 
 .footer-logo {
@@ -350,6 +359,7 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--iris);
+margin-bottom: 16px;
 }
 
 .logo-wight {
@@ -362,4 +372,5 @@ font-size: 16px;
 line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--cloud);
+max-width: 264px;
 }
