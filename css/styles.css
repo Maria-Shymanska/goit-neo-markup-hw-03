@@ -228,6 +228,7 @@ gap: 24px;
 display: flex;
 flex-direction: row;
 gap: 24px;
+width: calc((100% - 72px) / 4);
 }
 
 .features-item-title {
@@ -319,11 +320,11 @@ flex-direction: row;
 gap: 24px;
 flex-wrap: wrap;
 row-gap: 48px;
+width: calc((100% - 48px) / 3)
 }
 
-.portfolio-item {
-flex-basis: calc((100% - 72px) / 4)
-}
+
+
 
 .portfolio-item-title {
 font-weight: 500;
