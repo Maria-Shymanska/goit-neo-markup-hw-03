@@ -123,8 +123,8 @@ padding: 24px 0;
 display: block;
 }
 .address {
-	font-style: normal;
-	margin-left: auto;
+font-style: normal;
+margin-left: auto;
 }
 
 .address-link {
@@ -136,8 +136,8 @@ color: var(--slate);
 }
 
 .address-list {
-	display: flex;
-	gap: 40px;
+display: flex;
+gap: 40px;
 }
 .address-list .address-link:hover, 
 .address-list .address-link:focus {
@@ -154,10 +154,10 @@ padding: 188px 0;
 }
 
 .hero-container {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
 }
 
 .hero-title {
@@ -196,16 +196,16 @@ background-color: var(--ocean);
 /* features */
 
 .vigually-hidden {
-    position: absolute;
-    width: 1px;
-    height: 1px;
-    margin: -1px;
-    border: 0;
-    padding: 0;
-    white-space: nowrap;
-    clip-path: inset(100%);
-    clip: rect(0 0 0 0);
-    overflow: hidden;
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+border: 0;
+padding: 0;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
 }
 
 .features {
@@ -216,19 +216,18 @@ gap: 24px;
 }
 
 .features-title {
-	font-size: 36px;
-    font-weight: 700;
-    line-height: 40px;
-    letter-spacing: 0.02em;
-    text-align: center;
-	color: var(--white);
+font-size: 36px;
+font-weight: 700;
+line-height: 40px;
+letter-spacing: 0.02em;
+text-align: center;
+color: var(--white);
 }
 
 .features-list {
 display: flex;
 flex-direction: row;
 gap: 24px;
-width: calc((100% - 72px) / 4);
 }
 
 .features-item-title {
@@ -247,6 +246,9 @@ line-height: 1.5;
 letter-spacing: 0.02em;
 color: var(--slate);
 }
+.features-list-item {
+width: calc((100% - 72px) / 4);   
+}
 
 /* our team */
 .team {
@@ -260,15 +262,14 @@ background: var(--cloud);
 }
 .team-item {
 background-color: var(--white);
-    border-radius: 0px 0px 4px 4px;
-    box-shadow:
-    0px 2px 1px 0px #2E2F4214,
-    0px 1px 1px 0px #2E2F4229,
-    0px 1px 6px 0px #2E2F4214;
+border-radius: 0px 0px 4px4px;
+box-shadow: 0px 2px 1px 0px #2E2F4214,
+            0px 1px 1px 0px #2E2F4229,
+            0px 1px 6px 0px #2E2F4214;
 }
 
 .team-card-content {
-	padding: 32px 0;
+padding: 32px 0;
 }
 
 .team-title {
